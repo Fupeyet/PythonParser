@@ -16,6 +16,9 @@ def get_data(url):
     response = requests.get(url=url, headers=headers, proxies=proxies)
     print(response)
 
+    with open(file='index.html', mode='w') as file:
+        file.write(response.text)
+
 
 
 def main():

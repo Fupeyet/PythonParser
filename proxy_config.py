@@ -1,3 +1,3 @@
 login = ''
 password = ''
-proxy = 'proxy_ip:port'
+proxy = '12.151.56.30:80'
